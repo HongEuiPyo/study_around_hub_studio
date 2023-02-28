@@ -1,4 +1,4 @@
-package study_java;
+package study_java.study_optional;
 
 import java.util.Optional;
 
@@ -7,7 +7,7 @@ public class OptionalProcessingSample {
     public OptionalProcessingSample() {
         // filter
         Optional<SampleObject> sampleObject1 = Optional.of(getObject())
-                .filter(object -> "falture".equals(object.getName()));
+                .filter(object -> "flature".equals(object.getName()));
         System.out.println(sampleObject1.get());
 
         Optional<SampleObject> sampleObject2 = Optional.of(getObject())
