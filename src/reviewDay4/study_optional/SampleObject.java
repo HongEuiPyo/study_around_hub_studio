@@ -1,4 +1,4 @@
-package reviewDay3.study_optional;
+package reviewDay4.study_optional;
 
 public class SampleObject {
 
@@ -29,5 +29,4 @@ public class SampleObject {
     public void setAge(String age) { this.age = age; }
     public String getOrganization() { return organization; }
     public void setOrganization(String organization) { this.organization = organization; }
-
 }
