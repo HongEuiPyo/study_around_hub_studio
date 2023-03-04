@@ -1,4 +1,4 @@
-package reviewDay4.study_functional.sample;
+package reviewDay5.study_functional.sample;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
@@ -13,8 +13,8 @@ public class FunctionSample {
         System.out.println(function.apply("Around Hub Studio!"));
 
         BiFunction<String, Integer, String> biFunction = (message, count) -> {
-            int resultCount = count + 10;
-            return "Message : " + message + ", count : " + resultCount;
+          int resultCount = count + 10;
+          return "Message : " + message + ", count : " + resultCount;
         };
 
         System.out.println(biFunction.apply("Around Hub Studio!", 5));
